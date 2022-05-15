@@ -33,7 +33,7 @@ CREATE TABLE `bills` (
   `date` varchar(45) DEFAULT NULL,
   `billAmount` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,7 +42,7 @@ CREATE TABLE `bills` (
 
 LOCK TABLES `bills` WRITE;
 /*!40000 ALTER TABLE `bills` DISABLE KEYS */;
-INSERT INTO `bills` VALUES (1,'00001','Elec0001','Chamith','chamith@gmail.com','0719595435','No:04, Polhena, Matara','12.01.2022','Rs.5500'),(2,'00002','Elec0002','Kavindu','kavindu@gmail.com','0712136514','No: 235, Papiliyana, Gotagogama','10.03.2022','Rs.8000'),(3,'00003','Elec0003','Ravindu','ravindu@gmail.com','0712136514','No: 235, Mirihana, Gotagogama','10.03.2022','Rs.10000'),(4,'00004','Elec0004','Pasan','pasan@gmail.com','0712136514','No:3, Borupana, Gotagogama','10.03.2022','Rs.7500'),(5,'00005','Elec0005','Ravindu','ravindu@gmail.com','0718056985','No:5, 3rd Lane, Koswatta','15.03.2022','Rs.10500'),(6,'00006','Elec0006','Mahesh','mahesh@gmail.com','0712136514','No:3, 6th Ln','11.06.2021','Rs.9500');
+INSERT INTO `bills` VALUES (1,'00001','Elec0001','Akash','akash@gmail.com','0719595435','No:5, 3rd Lane, Koswatta','2022-05-10','Rs.8000'),(2,'00002','Elec0002','Kavindu','kavi@gmail.com','0718056985','No:3A, Mirihana, Nugegoda','2022-05-11','Rs.9500'),(3,'00003','Elec0003','Sahan','sahan@gmail.com','0712136514','No:5, 3rd Lane, Rajagirya','2022-05-20','Rs.10000');
 /*!40000 ALTER TABLE `bills` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -55,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-05-14 23:56:03
+-- Dump completed on 2022-05-15 23:42:37
